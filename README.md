@@ -26,4 +26,36 @@ YOU MUST CREATE THE 1440X993 Res in your nvidia settings. Only the first time.
 
 This is not malware, just a fast fix for an annoying process.
 
+It may be detected as malware due to heuristic analysis, not because it contains a real virus.
+
+The executable:
+
+Embeds and runs PowerShell (ps2exe packages it this way).
+
+Automatically elevates to administrator.
+
+Modifies system display settings.
+
+Can enable/disable monitor devices.
+
+Launches external processes (Riot Client / VALORANT).
+
+These behaviors are technically similar to what:
+
+Script loaders
+
+Administrative control tools
+
+Remote management utilities
+
+Some trojans
+
+often do.
+
+Modern antivirus engines don’t rely only on known virus signatures — they also analyze behavior.
+If an application performs actions commonly associated with malware, it may be flagged as a false positive.
+
+In short:
+The detection happens because of how the program operates at a system level, not because it contains malicious code.
+
 https://www.virustotal.com/gui/file/4711e5eb007e6ab55b42552ed3513664d24c142634a53d8bb016ed0b10620b70?nocache=1
